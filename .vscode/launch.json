@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FloraTrace}",
+            "name": "Debug FloraTrace",
+            "target": "FloraTrace",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug FloraTrace"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:FloraTrace}",
+            "name": "Release FloraTrace",
+            "target": "FloraTrace",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release FloraTrace"
+        }
+    ]
+}
